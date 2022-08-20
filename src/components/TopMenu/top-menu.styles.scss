@@ -1,0 +1,44 @@
+.menu-header{
+    background: #131912;
+    box-shadow: 0px 5px 10px rgba(91,91,91,0.1);
+}
+
+.menu{
+    ul{
+        margin: 6px 0px;
+        li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 40px;
+            &:hover{
+                a {
+              
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+
+            }
+
+            a{
+                color: #fff;
+                display: block;
+                text-decoration: none;
+
+                &:after{
+                    color: #fff;
+                    display: block;
+                    padding: 2px 0;
+                    position: relative;
+                    &:last-child{
+                        &:after{
+                            display: block;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+    }
+}

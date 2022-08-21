@@ -31,11 +31,11 @@ $my-color: #fff;
  
 
   
-  .auth::after{
-    position: absolute;
-    content: '/';
-    right: 8px;
-  }
+//   .auth::after{
+//     position: absolute;
+//     // content: '/';
+//     right: 8px;
+//   }
   
   .a:last-child::after{
     display: none ;
